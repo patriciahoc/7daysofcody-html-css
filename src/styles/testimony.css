@@ -1,0 +1,84 @@
+.testimony {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 1280px;
+  height: 404px;
+  margin-bottom: 96px;
+}
+
+.content-testimony {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  width: 1216px;
+  background: rgba(196, 25, 25, 0.03);
+  border-radius: 16px;
+}
+
+.header-testimony {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--color-red-principal);
+  margin-bottom: 16px;
+}
+
+.describe-testimony {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--color-black-principal);
+  width: 1088px;
+  margin-bottom: 32px;
+}
+
+.avatar-testimony {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1088px;
+}
+
+.avatar-testimony > img {
+  border-radius: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
+.name-testimony {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-black-principal);
+  margin-bottom: 4px;
+}
+
+.role-testimony {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--text-principal);
+}

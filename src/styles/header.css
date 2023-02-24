@@ -1,0 +1,86 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 28px;
+  margin-bottom: 28px;
+}
+
+header > .logo {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 119px;
+}
+
+.img {
+  width: 27px;
+  height: 27px;
+  margin-right: 8px;
+}
+
+.logo > .btn-logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--text-logo);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  margin-right: 398px;
+}
+
+.list > .item {
+  margin-right: 32px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.item > a {
+  color: var(--text-principal);
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button > .secundary {
+  width: 83px;
+  height: 44px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  color: var(--text-principal);
+  margin-right: 8px;
+}
+
+.button > .primary {
+  box-sizing: border-box;
+  width: 112px;
+  height: 44px;
+  background: var(--color-red-principal);
+  border: 1px solid var(--color-red-principal);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  font-weight: 500;
+  color: #ffffff;
+}

@@ -1,0 +1,122 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+  gap: 32px;
+  width: 1440px;
+  height: 430px;
+  background: #f9fafb;
+}
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 832px;
+  height: 182px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.content-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  height: 182px;
+  width: 768px;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+.contact-header > .title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--color-black-principal);
+}
+
+.contact-header > .text {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-principal);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 492px;
+  height: 48px;
+}
+.contact-form > input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 14px 12px 16px;
+  gap: 8px;
+  width: 360px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.contact-form > button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 8px;
+  width: 116px;
+  height: 48px;
+  background: var(--color-red-principal);
+  border: 1px solid var(--color-red-principal);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.text-footer {
+  width: 393px;
+  height: 24px;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+
+  color: #98a2b3;
+}

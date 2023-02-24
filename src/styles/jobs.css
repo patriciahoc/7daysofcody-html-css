@@ -1,0 +1,129 @@
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 96px;
+}
+
+.talents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.talents > .span {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 12px;
+  width: 125px;
+  height: 28px;
+  background: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--color-red-principal);
+  margin-bottom: 20px;
+}
+
+.talents > .title {
+  width: 768px;
+  height: 44px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--color-black-principal);
+  margin-bottom: 20px;
+}
+
+.talents > p {
+  width: 768px;
+  height: 30px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-principal);
+}
+
+.jobs-container img {
+  margin-top: 64px;
+}
+
+.jobs-open {
+  margin: 64px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content-jobs > .header-jobs {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--color-black-principal);
+  margin-bottom: 24px;
+}
+
+.content-jobs > .details-job {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 28px;
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.details-job > .title-job {
+  width: 720px;
+  height: 28px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: var(--color-black-principal);
+}
+.item-job {
+  display: flex;
+  margin-top: 32px;
+}
+
+.item-job > p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-principal);
+  text-align: end;
+}
+
+.item-job > p:first-child {
+  margin-right: 24px;
+}

@@ -1,0 +1,66 @@
+.metrics {
+  display: flex;
+  width: 1280px;
+  height: 192px;
+  margin: 107px auto 96px auto;
+}
+
+.metrics > .item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 280px;
+  height: 168px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.item > .title {
+  width: 280px;
+  height: 72px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: var(--color-red-principal);
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 12px;
+}
+
+.item > .describe {
+  width: 280px;
+  height: 28px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-black-principal);
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 8px;
+}
+
+.item > .subdescribe {
+  width: 280px;
+  height: 48px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-principal);
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
